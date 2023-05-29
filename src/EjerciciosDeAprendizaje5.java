@@ -1,9 +1,7 @@
 
 import java.util.Scanner;
 
-
 public class EjerciciosDeAprendizaje5 {
-
     public static void main(String[] args) {
         int num;
         int numDoble;
@@ -15,8 +13,8 @@ public class EjerciciosDeAprendizaje5 {
         numDoble = num * 2;
         System.out.println("-El doble del numero ingresado es: " + numDoble );
          numTriple = num * 3;
-         System.out.println("-El triple del numero ingresado es: " + numTriple);
-         numRaiz = Math.sqrt(num);
-         System.out.println("-La raiz cuadrada del numero ingresado es: " + numRaiz);
+        System.out.println("-El triple del numero ingresado es: " + numTriple);
+        numRaiz = Math.sqrt(num);
+        System.out.println("-La raiz cuadrada del numero ingresado es: " + numRaiz);
     }
 }

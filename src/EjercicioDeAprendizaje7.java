@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class EjercicioDeAprendizaje7 {
 
-    
-    
     public static void main(String[] args) {
         String frase;
         String fraseCorrecta  = "eureka";

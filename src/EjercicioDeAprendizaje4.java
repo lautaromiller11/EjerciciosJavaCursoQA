@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class EjercicioDeAprendizaje4 {
 
- 
     public static void main(String[] args) {
         int gradosC;
         int gradosF;

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class EjercicioDeAPrendizaje6 {
 
     public static void main(String[] args) {
-       int num;
+        int num;
         System.out.println("Ingrese un numero entero:");
         Scanner leer = new Scanner(System.in);
         num = leer.nextInt();

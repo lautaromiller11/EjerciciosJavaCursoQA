@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class EjercicioDeAprendizaje3 {
 
-  
     public static void main(String[] args) {
-       String frase;
+        String frase;
         System.out.println("Ingrese una frase");
         Scanner leer = new Scanner(System.in); 
         frase = leer.nextLine();

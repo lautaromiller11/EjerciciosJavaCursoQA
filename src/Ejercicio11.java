@@ -3,22 +3,20 @@ import java.util.Scanner;
 
 
 public class Ejercicio11 {  
-       
     public static void main(String[] args) {
         String entrada;
         Scanner leer = new Scanner(System.in);
-         System.out.println("Ingrese una frase o palabra");
-         entrada = leer.nextLine();
-         
-         if (entrada.endsWith(".")){
+        System.out.println("Ingrese una frase o palabra");
+        entrada = leer.nextLine();
+        if (entrada.endsWith(".")){
                 String retorno = codificarEntrada(entrada);
                 System.out.println("La codificacion correspondiente es:" );
                 System.out.println(retorno);
-         } else {
-             System.out.println("la secuencia debe terminar en punto.");
-         }
+        } else {
+            System.out.println("la secuencia debe terminar en punto.");
+        }
     
-     }
+    }
     public static String codificarEntrada(String secuencia) {
         String resultado = " ";
         
@@ -43,7 +41,6 @@ public class Ejercicio11 {
                     resultado = resultado.concat(String.valueOf(i));
             }
         }
-
         return resultado;
     }
 }
