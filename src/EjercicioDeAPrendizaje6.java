@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-public class EjercicioDeAPrendizaje6 {
+public class EjercicioDeAprendizaje6 {
 
     public static void main(String[] args) {
         int num;
